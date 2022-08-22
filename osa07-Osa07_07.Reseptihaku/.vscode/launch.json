@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Reseptihaku",
+            "request": "launch",
+            "mainClass": "Reseptihaku",
+            "projectName": "Osa07_07.Reseptihaku"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${file}",
+            "__workspaceFolder": "."
+        }
+    ]
+}

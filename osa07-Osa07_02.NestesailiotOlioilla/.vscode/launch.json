@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch NestesailiotOlioilla",
+            "request": "launch",
+            "mainClass": "NestesailiotOlioilla",
+            "projectName": "Osa07_02.NestesailiotOlioilla"
+        },
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${file}",
+            "__workspaceFolder": "."
+        }
+    ]
+}
